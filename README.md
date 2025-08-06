@@ -10,7 +10,7 @@ When it was localised for international markets as _Legend of the River King 2_,
 
 <img width="300" alt="Legend of the River King 2" src="https://github.com/user-attachments/assets/d1ac357d-8d9c-47ed-962d-5c62cfdb4fda" />
 
-But, the rumble support was never removed from the code. If the code was played on a third-party system that supported rumble, then that system would rumble — as long as the system was aware that it should rumble.
+But, though the hardware for it wasn't included, the code for it was still there. If the game code was played on a third-party system that supported rumble, then that system would rumble — as long as the system was aware that it should rumble.
 
 ## How to Do That?
 
