@@ -16,7 +16,7 @@ But, though the rumble hardware for it wasn't included, the code for it was stil
 
 Download the .bps file from the releases. Apply it to a copy of the game using your favourite patcher. Play & hopefully enjoy.
 
-### I Don't Know How to Patch, Can You Give Me the ROM?
+### I Don't Know How to Patch. Can You Give Me the ROM?
 
 No.
 
@@ -25,6 +25,12 @@ No.
 If you're playing it on the Analogue Pocket using a DS Rumble Pak, you have to use the spiritualized core. The budude2 core doesn't support rumble at this time.
 
 If you're playing it on another system or via a flashcart, then I dunno.
+
+### I Did The Above, But How Do I Toggle Off the Rumble?
+
+That's the best part: you can't! The code to actually trigger the rumble was left in the game, but the menu item to toggle it on & off was removed. And why would not? The game was released on hardware without the hardware for it.
+
+<img height="320" alt="Kawa no Nushi Tsuri 4 menu showing a third rumble option" src="https://github.com/user-attachments/assets/2f6442c8-4680-4b98-9b61-c547fd177577" />
 
 ## What Does It Do?
 
