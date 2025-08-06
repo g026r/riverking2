@@ -28,9 +28,11 @@ If you're playing it on another system or via a flashcart, then I dunno.
 
 ### I Did The Above, But How Do I Toggle Off the Rumble?
 
-That's the best part: you can't! The code to actually trigger the rumble was left in the game, but the menu item to toggle it on & off was removed. And why would not? The game was released on hardware without the hardware for it.
+That's the best part: you can't! The code to actually trigger the rumble was left in the game, but the menu item to toggle it on & off was removed. And why would not? The game was released without the hardware for it.
 
 <img height="320" alt="Kawa no Nushi Tsuri 4 menu showing a third rumble option" src="https://github.com/user-attachments/assets/2f6442c8-4680-4b98-9b61-c547fd177577" /> <img height="320" alt="Legend of the River King 2 2025-08-05 21 40 56" src="https://github.com/user-attachments/assets/814fd8b8-665d-487a-9f4c-ea20aa220278" />
+
+Probably someone could patch it back in. But this patch is just a very quick fix to get it working on hardware that follows the stricter Nintendo-style start-up sequence.
 
 ## What Does It Do?
 
