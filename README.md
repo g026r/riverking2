@@ -4,11 +4,11 @@
 
 When _Kawa no Nushi Tsuri 4_ was released in Japan, it came in a large yellow cartridge with rumble support.
 
-<img width="300" height="418" alt="Kawa-no-Nushi-Tsuri-4-con-Rumble-Game" src="https://github.com/user-attachments/assets/09263e67-aa79-460e-9698-8ce4e9e4ddc9" />
+<img width="300" height="418" alt="Kawa no Nushi Tsuri 4" src="https://github.com/user-attachments/assets/09263e67-aa79-460e-9698-8ce4e9e4ddc9" />
 
 When it was localised for international markets as _Legend of the River King 2_, it lost something in the process:
 
-<img width="790" height="902" alt="Legend-of-the-River-King-2" src="https://github.com/user-attachments/assets/d1ac357d-8d9c-47ed-962d-5c62cfdb4fda" />
+<img width="300" alt="Legend of the River King 2" src="https://github.com/user-attachments/assets/d1ac357d-8d9c-47ed-962d-5c62cfdb4fda" />
 
 But, the rumble support was never removed from the code. If played on a system that supports rumble, then it would rumble — as long as the system was aware that the game supported rumble.
 
