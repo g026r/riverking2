@@ -10,11 +10,11 @@ When it was localised for international markets as _Legend of the River King 2_,
 
 <img width="300" alt="Legend of the River King 2" src="https://github.com/user-attachments/assets/d1ac357d-8d9c-47ed-962d-5c62cfdb4fda" />
 
-But, though the hardware for it wasn't included, the code for it was still there. If the game code was played on a third-party system that supported rumble, then that system would rumble — as long as the system was aware that it should rumble.
+But, though the rumble hardware for it wasn't included, the code for it was still there. If the game code was played on a third-party system that supported rumble, then that system would rumble — as long as the system was aware that it _should_ rumble.
 
 ## How to Do That?
 
-Download the patch from the releases. Apply it to a copy of the game using your favourite patcher. Play & hopefully enjoy.
+Download the .bps file from the releases. Apply it to a copy of the game using your favourite patcher. Play & hopefully enjoy.
 
 ### I Don't Know How to Patch, Can You Give Me the ROM?
 
