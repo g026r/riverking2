@@ -10,7 +10,7 @@ When it was localised for international markets as _Legend of the River King 2_,
 
 <img width="300" alt="Legend of the River King 2" src="https://github.com/user-attachments/assets/d1ac357d-8d9c-47ed-962d-5c62cfdb4fda" />
 
-But, the rumble support was never removed from the code. If played on a system that supports rumble, then it would rumble — as long as the system was aware that the game supported rumble.
+But, the rumble support was never removed from the code. If the code was played on a third-party system that supported rumble, then that system would rumble — as long as the system was aware that it should rumble.
 
 ## How to Do That?
 
@@ -28,10 +28,10 @@ If you're playing it on another system or via a flashcart, then I dunno.
 
 ## What Does It Do?
 
-In essence, Legend of the River King 2 still supports rumble. But [the cartridge header,](https://gbdev.io/pandocs/The_Cartridge_Header.html) which tells various aftermarket systems what hardware is on the cartridge, doesn't say it supports rumble. This patch changes two bytes in the header so that it now reports itself as supporting rumble.
+In essence, Legend of the River King 2 still supports rumble. But [the cartridge header,](https://gbdev.io/pandocs/The_Cartridge_Header.html) which tells various aftermarket systems what hardware is on the cartridge, doesn't identifiy it as supporting rumble. This patch changes two bytes in the header so that it now reports itself as supporting rumble.
 
 ### Two Bytes? But the Patch on Romhacking Only Changes One
 
-Yeah, the patch on romhacking is broken. In addition to changing the cartridge type byte, you also have to change the header checksum byte. If you don't do that, then anything that follows [the Game Boy boot sequence](https://gbdev.io/pandocs/Power_Up_Sequence.html) will fail to load the game.
+Yes, but the patch on romhacking is broken. In addition to changing the cartridge type byte, you also have to change the header checksum byte. If you fail to do that, then anything that follows [the Game Boy boot sequence](https://gbdev.io/pandocs/Power_Up_Sequence.html) will not load the game.
 
 While some aftermarket & third-party systems don't care about the header checksum, others do. By fixing this, it makes the final result usable on as many systems as possible.
