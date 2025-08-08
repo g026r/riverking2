@@ -10,7 +10,7 @@ When it was localised for international markets as _Legend of the River King 2_,
 
 <img width="300" alt="Legend of the River King 2" src="https://github.com/user-attachments/assets/d1ac357d-8d9c-47ed-962d-5c62cfdb4fda" />
 
-But, though the rumble hardware for it wasn't included, the code for it was still there. If the game code was played on a third-party system that supported rumble, then that system would rumble — as long as the system was aware that it _should_ rumble.
+But even though the rumble hardware for it wasn't included, the code for it was still there. If the game code was played on a third-party system that supported rumble, then that system would rumble as long as the system was aware that it _should_ rumble.
 
 ## How to Do That?
 
@@ -33,6 +33,8 @@ You can't! The code to trigger the rumble was left in the game, but the menu ite
 <img height="320" alt="Kawa no Nushi Tsuri 4 menu showing a third rumble option" src="https://github.com/user-attachments/assets/2f6442c8-4680-4b98-9b61-c547fd177577" /> <img height="320" alt="Legend of the River King 2 2025-08-05 21 40 56" src="https://github.com/user-attachments/assets/814fd8b8-665d-487a-9f4c-ea20aa220278" />
 
 Probably someone could add it back in. But this patch is just a very quick fix to get it working on hardware that follows the stricter Nintendo-style start-up sequence, so it doesn't do that.
+
+(Edit: if you download the file directly from the repo instead of the release, there is an invisible menu item for toggling it on & off on the menu screen. Still haven't worked out how it loads the tiles though, so there's no visual indicator.)
 
 ## What Does It Do?
 
