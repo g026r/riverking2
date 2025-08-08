@@ -38,7 +38,7 @@ Probably someone could add it back in. But this patch is just a very quick fix t
 
 ## What Does It Do?
 
-In essence, Legend of the River King 2 still supports rumble. But [the cartridge header,](https://gbdev.io/pandocs/The_Cartridge_Header.html) which tells various aftermarket systems what hardware is on the cartridge, doesn't identifiy it as supporting rumble. This patch changes two bytes in the header so that it now reports itself as supporting rumble.
+In essence, Legend of the River King 2 still supports rumble. But [the cartridge header,](https://gbdev.io/pandocs/The_Cartridge_Header.html) which tells various aftermarket systems what hardware on the cartridge it needs to emulate, doesn't identifiy it as supporting rumble. This patch changes two bytes in the header so that it now reports itself as supporting rumble.
 
 ### Two Bytes? But the Patch on Romhacking Only Changes One
 
