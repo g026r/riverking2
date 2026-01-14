@@ -20,11 +20,15 @@ Download the .bps file from the releases. Apply it to a copy of the game using y
 
 No.
 
+### Do I Need This Patch If I'm Playing on a Single-Game Flash Cart?
+
+No. You only need this if you're using a system that emulates the rumble hardware. Single-game flashcarts with rumble, like [this one from InsideGadgets](https://shop.insidegadgets.com/product/gameboy-4mb-32kb-fram-flash-cart-ultra-low-power/), don't need the patch as the header entry for the mapper type is ignored by Game Boys.
+
 ### I Did The Above And Game Doesn't Rumble
 
 If you're playing it on the Analogue Pocket using a DS Rumble Pak, you have to use the spiritualized core. The budude2 core doesn't support rumble at this time.
 
-If you're playing it on another system or via a flashcart, then I dunno.
+If you're playing it on another system or via a SD-based flashcart, then I dunno.
 
 ### I Did The Above, But It Rumbles Too Much. How Do I Toggle It Off?
 
